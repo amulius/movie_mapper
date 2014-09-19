@@ -1,0 +1,22 @@
+{% load staticfiles %}
+{% load leaflet_tags %}
+<!DOCTYPE html>
+<html>
+    <head>
+{#        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>#}
+{#        <script src="{% static 'js/cards.js' %}"></script>#}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+        {% leaflet_js %}
+        {% leaflet_css %}
+        <title>{% block title %}{% endblock title %}</title>
+    </head>
+    <body>
+        <div>
+            {% include 'includes/header_nav.html' %}
+        </div>
+        <h1>Welcome to Movie Mapper</h1>
+        {% block content %}{% endblock content %}
+    </body>
+{#    <footer>copyright Joshua Stortz 2014</footer>#}
+</html>

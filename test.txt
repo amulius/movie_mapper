@@ -1,0 +1,8 @@
+http://www.imdb.com/search/title?locations=San+Francisco%2C+California
+http://www.imdb.com/search/title?locations=San+Fransisco%2C+California&sort=moviemeter
+
+http://www.imdb.com/search/title?locations=San+Francisco%2C+California&title_type=feature&view=simple
+
+http://www.imdb.com/search/title?locations=New+South+Wales%2C+Australia&title_type=feature&view=simple
+
+New+South+Wales%2C+Australia

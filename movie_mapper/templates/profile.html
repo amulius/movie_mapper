@@ -1,0 +1,15 @@
+{% extends 'base_template.html' %}
+
+{% block title %}
+    Profile
+{% endblock title %}
+
+
+{% block content %}
+    <h3>Profile</h3>
+    <p>Hi {{ user.username }} ({{ user.first_name }} {{ user.last_name }})</p>
+    <p>Your email address is {{ user.email }}</p>
+{#    <p>Your phone number is {{ user.phone }}</p>#}
+    <p>Your last login was on {{ user.last_login }}</p>
+    <p>It's been {{ user.date_joined | timesince }} since you registered</p>
+{% endblock content %}
